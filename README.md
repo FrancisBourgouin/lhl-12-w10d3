@@ -69,7 +69,7 @@ Same install as what we already have, but let's add typescript packages :
 npm i -D node-typescript typescript ts-node-dev tslint tsc-watch
 ```
 ```
-npm i -D @types/express @types/express-session @types/node @types/request @types/uuid @types/cookie-session @types/cookie-parser
+npm i -D @types/express @types/express-session @types/node @types/request @types/uuid @types/cookie-session
 ```
 ```
 npx tsc --init
