@@ -65,11 +65,18 @@ In the testing folder, you will have access to what we did together during the l
 ### Package installation
 
 Same install as what we already have, but let's add typescript packages :
-
-- npm i -D node-typescript typescript ts-node-dev tslint tsc-watch
-- npm i -D @types/express @types/express-session @types/node @types/request @types/uuid @types/cookie-session @types/cookie-parser
-- npx tsc --init
-- npx tslint --init
+```
+npm i -D node-typescript typescript ts-node-dev tslint tsc-watch
+```
+```
+npm i -D @types/express @types/express-session @types/node @types/request @types/uuid @types/cookie-session @types/cookie-parser
+```
+```
+npx tsc --init
+```
+```
+npx tslint --init
+```
 
 ### TypeScript Compiler configuration
 
