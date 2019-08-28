@@ -1,0 +1,22 @@
+{
+  "name": "tinyapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-typescript": "^0.1.3",
+    "ts-node-dev": "^1.0.0-pre.42",
+    "tsc-watch": "^2.4.0",
+    "tslint": "^5.19.0",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/uuid": "^3.4.5",
+    "uuid": "^3.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
