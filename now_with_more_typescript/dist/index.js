@@ -67,8 +67,8 @@ app.post("/register", (req, res) => {
     const { username, fullname, password } = req.body;
     const hashedPassword = bcrypt_1.default.hashSync(password, saltRounds);
     userDatabaseIsh[userId] = {
-        fullname,
         id: userId,
+        fullname,
         password: hashedPassword,
         username,
     };

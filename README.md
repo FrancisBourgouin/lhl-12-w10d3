@@ -37,18 +37,18 @@ const potato: PotatoInfo = { //Valid
     type:"Yukon Gold",
     usage:"All purpose",
     amount:10
-} 
+}
 
 const otherPotato: PotatoInfo = { //Invalid
     type:"Yukon Gold",
     usage:"All purpose",
     amount:"ten"
-} 
+}
 ```
 
 ## Documentation
 
-Besides typing, one of the most interesting features of TypeScript is the 'automatic' documentation of all written function and interfaces. It's then easy to make sure that the properties given to a function are the right ones and the output is what is expected.
+Besides typing, one of the most interesting features I personally like of TypeScript is the 'automatic' documentation of all written function and interfaces. It's then easy to make sure that the properties given to a function are the right ones and the output is what is expected.
 
 For all imported libraries, if there is no documentation, there is a community driven package (@types) to enable it on specific packages that would not have any written.
 
@@ -65,15 +65,19 @@ In the testing folder, you will have access to what we did together during the l
 ### Package installation
 
 Same install as what we already have, but let's add typescript packages :
+
 ```
 npm i -D node-typescript typescript ts-node-dev tslint tsc-watch
 ```
+
 ```
 npm i -D @types/express @types/express-session @types/node @types/request @types/uuid @types/cookie-session
 ```
+
 ```
 npx tsc --init
 ```
+
 ```
 npx tslint --init
 ```
@@ -84,9 +88,9 @@ I personally enable those options in the tsconfig.json file , considering that m
 
 ```
   ...
-  "target": "ES5",  
+  "target": "ES5",
   "module": "commonjs",
-  "outDir": "./dist",                           
+  "outDir": "./dist",
   "rootDir": "./src",
   ...
 ```
